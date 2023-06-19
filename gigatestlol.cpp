@@ -1,6 +1,6 @@
 #include <supervirus.megalol>
 
-void main(){
+int main(){
 	gigahackyes();
-	return;
+	return 123;
 }
