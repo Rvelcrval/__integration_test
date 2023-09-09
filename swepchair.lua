@@ -7,7 +7,6 @@ SWEP.Instructions		= "Left mouse to fire a chair!"
 SWEP.Spawnable = true
 SWEP.AdminOnly = true
 
-
 SWEP.Primary = {}
 SWEP.Primary.ClipSize		= -1
 SWEP.Primary.DefaultClip	= -1
