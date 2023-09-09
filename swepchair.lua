@@ -1,3 +1,5 @@
+local SWEP = {}
+
 SWEP.PrintName			= "Chair Thrower" -- This will be shown in the spawn menu, and in the weapon selection menu
 SWEP.Author			= "(your name)" -- These two options will be shown when you have the weapon highlighted in the weapon selection menu
 SWEP.Instructions		= "Left mouse to fire a chair!"
@@ -116,3 +118,5 @@ function SWEP:ThrowChair( model_file )
 	-- ent:IsValid() checks if the item still exists before removing it, eliminating errors.
 	timer.Simple( 10, function() if ent and ent:IsValid() then ent:Remove() end end )
 end
+
+ weapons.Register(SWEP,"chairgun")
