@@ -1,1 +1,1 @@
-print("test success")
+print(SWEP)
